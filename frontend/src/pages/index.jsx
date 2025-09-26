@@ -53,7 +53,7 @@ const Index = () => {
           <FileConversionView
             files={uploadedFiles}
             onBack={handleBackToUpload}
-            onConvert={handleConvert}
+            // onConvert={handleConvert}
           />
         ) : (
           <DragAndDropZone onFileDrop={handleFileDrop} />
